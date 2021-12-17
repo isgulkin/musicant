@@ -206,6 +206,32 @@ class music_cog(commands.Cog):
         '''
         await self.vc.disconnect()
         await ctx.send("```до скорых встреч```")
+def BotAnswer(UserData):
+    x = 'Цепи Скриптонит'
+    UserSent = {
+        '!start': 'Ку) Я mu$icant - бот, которого ты ещё не видел нигде! Чувак, да, я бот, но мой скилл покруче живых, поверь XD. \nКороче не будем медлить. Держи мой IQ наборчик: \n!help - если вдруг забыл как мной пользоваться)) \n!p - поставлю музычку на любой вкус \n!ps - тормознем трек \n!n - воспроизведу следующий трек \n!clear - удалю эти бесполезные сообщения',
+        '!help': 'Давай-ка напомню тебе) \n!p - поставлю музычку на любой вкус \n!ps - тормознем трек \n!n - воспроизведу следующий трек \n!clear - удалю эти бесполезные сообщения',
+        '!p': 'Запустил трек ' + '"' + x + '"',
+        '!ps': 'Так так так, ставлю на паузу!',
+        '!n': 'Воспроизвёл следующий трек ' + '"' + x + '"',
+        '!clear': 'Удалил эти бесполезные сообщения!'
+    }
+    BotOtvet = ''
+    if UserData == '!start':
+        BotOtvet = UserSent['!start']
+    elif UserData == '!help':
+        BotOtvet = UserSent['!help']
+    elif UserData == '!p':
+        BotOtvet = UserSent['!p']
+    elif UserData == '!ps':
+        BotOtvet = UserSent['!ps']
+    elif UserData == '!n':
+        BotOtvet = UserSent['!n']
+    elif UserData == '!clear':
+        BotOtvet = UserSent['!clear']
+    else:
+        BotOtvet = 'Пока не научился отвечать на такое'
+    return BotOtvet
 
 #добавляем функции из файлов проекта
 bot.add_cog(general_cog(bot))
