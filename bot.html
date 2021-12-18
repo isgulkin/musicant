@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module bot</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>bot</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cisgul%5Cpycharmprojects%5Cmusicant%5Cbot.py">c:\users\isgul\pycharmprojects\musicant\bot.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="discord.ext.commands.html">discord.ext.commands</a><br>
+</td><td width="25%" valign=top><a href="discord.html">discord</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="bot.html#general_cog">general_cog</a>
+</font></dt><dt><font face="helvetica, arial"><a href="bot.html#music_cog">music_cog</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="general_cog">class <strong>general_cog</strong></a>(<a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#general_cog-__cog_name__">general_cog</a>(bot)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="bot.html#general_cog">general_cog</a></dd>
+<dd><a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="general_cog-__init__"><strong>__init__</strong></a>(self, bot)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;<a href="#general_cog-help">help</a>(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt>async <a name="general_cog-on_ready"><strong>on_ready</strong></a>(self)</dt><dd><tt>асинхонная&nbsp;функция,&nbsp;запускающаяся,&nbsp;когда&nbsp;запускается&nbsp;бот.<br>
+class&nbsp;disord.commands&nbsp;-&nbsp;класс&nbsp;discord.py,&nbsp;представляющий&nbsp;собой&nbsp;клиентское&nbsp;соединение,&nbsp;которое&nbsp;подключается&nbsp;к&nbsp;Discord</tt></dd></dl>
+
+<dl><dt>async <a name="general_cog-send_to_all"><strong>send_to_all</strong></a>(self, msg)</dt><dd><tt>функция&nbsp;для&nbsp;отправки&nbsp;сообщения&nbsp;всем&nbsp;пользователям&nbsp;текстового&nbsp;канала<br>
+аргумент&nbsp;ctx&nbsp;-&nbsp;контекст</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__cog_commands__</strong> = [&lt;discord.ext.commands.core.Command object&gt;, &lt;discord.ext.commands.core.Command object&gt;]</dl>
+
+<dl><dt><strong>__cog_description__</strong> = ''</dl>
+
+<dl><dt><strong>__cog_listeners__</strong> = [('on_ready', 'on_ready')]</dl>
+
+<dl><dt><strong>__cog_name__</strong> = 'general_cog'</dl>
+
+<dl><dt><strong>__cog_settings__</strong> = {}</dl>
+
+<dl><dt><strong>clear</strong> = &lt;discord.ext.commands.core.Command object&gt;</dl>
+
+<dl><dt><strong>help</strong> = &lt;discord.ext.commands.core.Command object&gt;</dl>
+
+<hr>
+Methods inherited from <a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>:<br>
+<dl><dt><a name="general_cog-bot_check"><strong>bot_check</strong></a>(self, ctx)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;registers&nbsp;as&nbsp;a&nbsp;:meth:`.Bot.check`<br>
+check.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;**can**&nbsp;be&nbsp;a&nbsp;coroutine&nbsp;and&nbsp;must&nbsp;take&nbsp;a&nbsp;sole&nbsp;parameter,<br>
+``ctx``,&nbsp;to&nbsp;represent&nbsp;the&nbsp;:class:`.Context`.</tt></dd></dl>
+
+<dl><dt><a name="general_cog-bot_check_once"><strong>bot_check_once</strong></a>(self, ctx)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;registers&nbsp;as&nbsp;a&nbsp;:meth:`.Bot.check_once`<br>
+check.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;**can**&nbsp;be&nbsp;a&nbsp;coroutine&nbsp;and&nbsp;must&nbsp;take&nbsp;a&nbsp;sole&nbsp;parameter,<br>
+``ctx``,&nbsp;to&nbsp;represent&nbsp;the&nbsp;:class:`.Context`.</tt></dd></dl>
+
+<dl><dt>async <a name="general_cog-cog_after_invoke"><strong>cog_after_invoke</strong></a>(self, ctx)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;acts&nbsp;as&nbsp;a&nbsp;cog&nbsp;local&nbsp;post-invoke&nbsp;hook.<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;similar&nbsp;to&nbsp;:meth:`.Command.after_invoke`.<br>
+&nbsp;<br>
+This&nbsp;**must**&nbsp;be&nbsp;a&nbsp;coroutine.<br>
+&nbsp;<br>
+Parameters<br>
+-----------<br>
+ctx:&nbsp;:class:`.Context`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;invocation&nbsp;context.</tt></dd></dl>
+
+<dl><dt>async <a name="general_cog-cog_before_invoke"><strong>cog_before_invoke</strong></a>(self, ctx)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;acts&nbsp;as&nbsp;a&nbsp;cog&nbsp;local&nbsp;pre-invoke&nbsp;hook.<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;similar&nbsp;to&nbsp;:meth:`.Command.before_invoke`.<br>
+&nbsp;<br>
+This&nbsp;**must**&nbsp;be&nbsp;a&nbsp;coroutine.<br>
+&nbsp;<br>
+Parameters<br>
+-----------<br>
+ctx:&nbsp;:class:`.Context`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;invocation&nbsp;context.</tt></dd></dl>
+
+<dl><dt><a name="general_cog-cog_check"><strong>cog_check</strong></a>(self, ctx)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;registers&nbsp;as&nbsp;a&nbsp;:func:`commands.check`<br>
+for&nbsp;every&nbsp;command&nbsp;and&nbsp;subcommand&nbsp;in&nbsp;this&nbsp;cog.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;**can**&nbsp;be&nbsp;a&nbsp;coroutine&nbsp;and&nbsp;must&nbsp;take&nbsp;a&nbsp;sole&nbsp;parameter,<br>
+``ctx``,&nbsp;to&nbsp;represent&nbsp;the&nbsp;:class:`.Context`.</tt></dd></dl>
+
+<dl><dt>async <a name="general_cog-cog_command_error"><strong>cog_command_error</strong></a>(self, ctx, error)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;is&nbsp;called&nbsp;whenever&nbsp;an&nbsp;error<br>
+is&nbsp;dispatched&nbsp;inside&nbsp;this&nbsp;cog.<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;similar&nbsp;to&nbsp;:func:`.on_command_error`&nbsp;except&nbsp;only&nbsp;applying<br>
+to&nbsp;the&nbsp;commands&nbsp;inside&nbsp;this&nbsp;cog.<br>
+&nbsp;<br>
+This&nbsp;**must**&nbsp;be&nbsp;a&nbsp;coroutine.<br>
+&nbsp;<br>
+Parameters<br>
+-----------<br>
+ctx:&nbsp;:class:`.Context`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;invocation&nbsp;context&nbsp;where&nbsp;the&nbsp;error&nbsp;happened.<br>
+error:&nbsp;:class:`CommandError`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;error&nbsp;that&nbsp;happened.</tt></dd></dl>
+
+<dl><dt><a name="general_cog-cog_unload"><strong>cog_unload</strong></a>(self)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;is&nbsp;called&nbsp;when&nbsp;the&nbsp;cog&nbsp;gets&nbsp;removed.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;**cannot**&nbsp;be&nbsp;a&nbsp;coroutine.&nbsp;It&nbsp;must&nbsp;be&nbsp;a&nbsp;regular<br>
+function.<br>
+&nbsp;<br>
+Subclasses&nbsp;must&nbsp;replace&nbsp;this&nbsp;if&nbsp;they&nbsp;want&nbsp;special&nbsp;unloading&nbsp;behaviour.</tt></dd></dl>
+
+<dl><dt><a name="general_cog-get_commands"><strong>get_commands</strong></a>(self)</dt><dd><tt>Returns<br>
+--------<br>
+List[:class:`.Command`]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;:class:`list`&nbsp;of&nbsp;:class:`.Command`\s&nbsp;that&nbsp;are<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defined&nbsp;inside&nbsp;this&nbsp;cog.<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;..&nbsp;note::<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;does&nbsp;not&nbsp;include&nbsp;subcommands.</tt></dd></dl>
+
+<dl><dt><a name="general_cog-get_listeners"><strong>get_listeners</strong></a>(self)</dt><dd><tt>Returns&nbsp;a&nbsp;:class:`list`&nbsp;of&nbsp;(name,&nbsp;function)&nbsp;listener&nbsp;pairs&nbsp;that&nbsp;are&nbsp;defined&nbsp;in&nbsp;this&nbsp;cog.<br>
+&nbsp;<br>
+Returns<br>
+--------<br>
+List[Tuple[:class:`str`,&nbsp;:ref:`coroutine&nbsp;&lt;coroutine&gt;`]]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;listeners&nbsp;defined&nbsp;in&nbsp;this&nbsp;cog.</tt></dd></dl>
+
+<dl><dt><a name="general_cog-has_error_handler"><strong>has_error_handler</strong></a>(self)</dt><dd><tt>:class:`bool`:&nbsp;Checks&nbsp;whether&nbsp;the&nbsp;cog&nbsp;has&nbsp;an&nbsp;error&nbsp;handler.<br>
+&nbsp;<br>
+..&nbsp;versionadded::&nbsp;1.7</tt></dd></dl>
+
+<dl><dt><a name="general_cog-walk_commands"><strong>walk_commands</strong></a>(self)</dt><dd><tt>An&nbsp;iterator&nbsp;that&nbsp;recursively&nbsp;walks&nbsp;through&nbsp;this&nbsp;cog's&nbsp;commands&nbsp;and&nbsp;subcommands.<br>
+&nbsp;<br>
+Yields<br>
+------<br>
+Union[:class:`.Command`,&nbsp;:class:`.Group`]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;command&nbsp;or&nbsp;group&nbsp;from&nbsp;the&nbsp;cog.</tt></dd></dl>
+
+<hr>
+Class methods inherited from <a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>:<br>
+<dl><dt><a name="general_cog-listener"><strong>listener</strong></a>(name=None)<font color="#909090"><font face="helvetica, arial"> from <a href="discord.ext.commands.cog.html#CogMeta">discord.ext.commands.cog.CogMeta</a></font></font></dt><dd><tt>A&nbsp;decorator&nbsp;that&nbsp;marks&nbsp;a&nbsp;function&nbsp;as&nbsp;a&nbsp;listener.<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;the&nbsp;cog&nbsp;equivalent&nbsp;of&nbsp;:meth:`.Bot.listen`.<br>
+&nbsp;<br>
+Parameters<br>
+------------<br>
+name:&nbsp;:class:`str`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;name&nbsp;of&nbsp;the&nbsp;event&nbsp;being&nbsp;listened&nbsp;to.&nbsp;If&nbsp;not&nbsp;provided,&nbsp;it<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;the&nbsp;function's&nbsp;name.<br>
+&nbsp;<br>
+Raises<br>
+--------<br>
+TypeError<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;function&nbsp;is&nbsp;not&nbsp;a&nbsp;coroutine&nbsp;function&nbsp;or&nbsp;a&nbsp;string&nbsp;was&nbsp;not&nbsp;passed&nbsp;as<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;name.</tt></dd></dl>
+
+<hr>
+Static methods inherited from <a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>:<br>
+<dl><dt><a name="general_cog-__new__"><strong>__new__</strong></a>(cls, *args, **kwargs)</dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;<a href="#general_cog-help">help</a>(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Readonly properties inherited from <a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>:<br>
+<dl><dt><strong>qualified_name</strong></dt>
+<dd><tt>:class:`str`:&nbsp;Returns&nbsp;the&nbsp;cog's&nbsp;specified&nbsp;name,&nbsp;not&nbsp;the&nbsp;class&nbsp;name.</tt></dd>
+</dl>
+<hr>
+Data descriptors inherited from <a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>description</strong></dt>
+<dd><tt>:class:`str`:&nbsp;Returns&nbsp;the&nbsp;cog's&nbsp;description,&nbsp;typically&nbsp;the&nbsp;cleaned&nbsp;docstring.</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="music_cog">class <strong>music_cog</strong></a>(<a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#music_cog-__cog_name__">music_cog</a>(bot)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="bot.html#music_cog">music_cog</a></dd>
+<dd><a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="music_cog-__init__"><strong>__init__</strong></a>(self, bot)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt>async <a name="music_cog-play_music"><strong>play_music</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="music_cog-play_next"><strong>play_next</strong></a>(self)</dt><dd><tt>функция&nbsp;для&nbsp;впоспоизведения&nbsp;треков&nbsp;по&nbsp;очереди</tt></dd></dl>
+
+<dl><dt><a name="music_cog-search_yt"><strong>search_yt</strong></a>(self, item)</dt><dd><tt>функция&nbsp;для&nbsp;поиска&nbsp;трека&nbsp;на&nbsp;YouTube</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__cog_commands__</strong> = [&lt;discord.ext.commands.core.Command object&gt;, &lt;discord.ext.commands.core.Command object&gt;, &lt;discord.ext.commands.core.Command object&gt;, &lt;discord.ext.commands.core.Command object&gt;, &lt;discord.ext.commands.core.Command object&gt;, &lt;discord.ext.commands.core.Command object&gt;]</dl>
+
+<dl><dt><strong>__cog_description__</strong> = ''</dl>
+
+<dl><dt><strong>__cog_listeners__</strong> = []</dl>
+
+<dl><dt><strong>__cog_name__</strong> = 'music_cog'</dl>
+
+<dl><dt><strong>__cog_settings__</strong> = {}</dl>
+
+<dl><dt><strong>disconnect</strong> = &lt;discord.ext.commands.core.Command object&gt;</dl>
+
+<dl><dt><strong>next</strong> = &lt;discord.ext.commands.core.Command object&gt;</dl>
+
+<dl><dt><strong>pause</strong> = &lt;discord.ext.commands.core.Command object&gt;</dl>
+
+<dl><dt><strong>play</strong> = &lt;discord.ext.commands.core.Command object&gt;</dl>
+
+<dl><dt><strong>queue</strong> = &lt;discord.ext.commands.core.Command object&gt;</dl>
+
+<dl><dt><strong>resume</strong> = &lt;discord.ext.commands.core.Command object&gt;</dl>
+
+<hr>
+Methods inherited from <a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>:<br>
+<dl><dt><a name="music_cog-bot_check"><strong>bot_check</strong></a>(self, ctx)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;registers&nbsp;as&nbsp;a&nbsp;:meth:`.Bot.check`<br>
+check.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;**can**&nbsp;be&nbsp;a&nbsp;coroutine&nbsp;and&nbsp;must&nbsp;take&nbsp;a&nbsp;sole&nbsp;parameter,<br>
+``ctx``,&nbsp;to&nbsp;represent&nbsp;the&nbsp;:class:`.Context`.</tt></dd></dl>
+
+<dl><dt><a name="music_cog-bot_check_once"><strong>bot_check_once</strong></a>(self, ctx)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;registers&nbsp;as&nbsp;a&nbsp;:meth:`.Bot.check_once`<br>
+check.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;**can**&nbsp;be&nbsp;a&nbsp;coroutine&nbsp;and&nbsp;must&nbsp;take&nbsp;a&nbsp;sole&nbsp;parameter,<br>
+``ctx``,&nbsp;to&nbsp;represent&nbsp;the&nbsp;:class:`.Context`.</tt></dd></dl>
+
+<dl><dt>async <a name="music_cog-cog_after_invoke"><strong>cog_after_invoke</strong></a>(self, ctx)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;acts&nbsp;as&nbsp;a&nbsp;cog&nbsp;local&nbsp;post-invoke&nbsp;hook.<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;similar&nbsp;to&nbsp;:meth:`.Command.after_invoke`.<br>
+&nbsp;<br>
+This&nbsp;**must**&nbsp;be&nbsp;a&nbsp;coroutine.<br>
+&nbsp;<br>
+Parameters<br>
+-----------<br>
+ctx:&nbsp;:class:`.Context`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;invocation&nbsp;context.</tt></dd></dl>
+
+<dl><dt>async <a name="music_cog-cog_before_invoke"><strong>cog_before_invoke</strong></a>(self, ctx)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;acts&nbsp;as&nbsp;a&nbsp;cog&nbsp;local&nbsp;pre-invoke&nbsp;hook.<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;similar&nbsp;to&nbsp;:meth:`.Command.before_invoke`.<br>
+&nbsp;<br>
+This&nbsp;**must**&nbsp;be&nbsp;a&nbsp;coroutine.<br>
+&nbsp;<br>
+Parameters<br>
+-----------<br>
+ctx:&nbsp;:class:`.Context`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;invocation&nbsp;context.</tt></dd></dl>
+
+<dl><dt><a name="music_cog-cog_check"><strong>cog_check</strong></a>(self, ctx)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;registers&nbsp;as&nbsp;a&nbsp;:func:`commands.check`<br>
+for&nbsp;every&nbsp;command&nbsp;and&nbsp;subcommand&nbsp;in&nbsp;this&nbsp;cog.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;**can**&nbsp;be&nbsp;a&nbsp;coroutine&nbsp;and&nbsp;must&nbsp;take&nbsp;a&nbsp;sole&nbsp;parameter,<br>
+``ctx``,&nbsp;to&nbsp;represent&nbsp;the&nbsp;:class:`.Context`.</tt></dd></dl>
+
+<dl><dt>async <a name="music_cog-cog_command_error"><strong>cog_command_error</strong></a>(self, ctx, error)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;is&nbsp;called&nbsp;whenever&nbsp;an&nbsp;error<br>
+is&nbsp;dispatched&nbsp;inside&nbsp;this&nbsp;cog.<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;similar&nbsp;to&nbsp;:func:`.on_command_error`&nbsp;except&nbsp;only&nbsp;applying<br>
+to&nbsp;the&nbsp;commands&nbsp;inside&nbsp;this&nbsp;cog.<br>
+&nbsp;<br>
+This&nbsp;**must**&nbsp;be&nbsp;a&nbsp;coroutine.<br>
+&nbsp;<br>
+Parameters<br>
+-----------<br>
+ctx:&nbsp;:class:`.Context`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;invocation&nbsp;context&nbsp;where&nbsp;the&nbsp;error&nbsp;happened.<br>
+error:&nbsp;:class:`CommandError`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;error&nbsp;that&nbsp;happened.</tt></dd></dl>
+
+<dl><dt><a name="music_cog-cog_unload"><strong>cog_unload</strong></a>(self)</dt><dd><tt>A&nbsp;special&nbsp;method&nbsp;that&nbsp;is&nbsp;called&nbsp;when&nbsp;the&nbsp;cog&nbsp;gets&nbsp;removed.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;**cannot**&nbsp;be&nbsp;a&nbsp;coroutine.&nbsp;It&nbsp;must&nbsp;be&nbsp;a&nbsp;regular<br>
+function.<br>
+&nbsp;<br>
+Subclasses&nbsp;must&nbsp;replace&nbsp;this&nbsp;if&nbsp;they&nbsp;want&nbsp;special&nbsp;unloading&nbsp;behaviour.</tt></dd></dl>
+
+<dl><dt><a name="music_cog-get_commands"><strong>get_commands</strong></a>(self)</dt><dd><tt>Returns<br>
+--------<br>
+List[:class:`.Command`]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;:class:`list`&nbsp;of&nbsp;:class:`.Command`\s&nbsp;that&nbsp;are<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defined&nbsp;inside&nbsp;this&nbsp;cog.<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;..&nbsp;note::<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This&nbsp;does&nbsp;not&nbsp;include&nbsp;subcommands.</tt></dd></dl>
+
+<dl><dt><a name="music_cog-get_listeners"><strong>get_listeners</strong></a>(self)</dt><dd><tt>Returns&nbsp;a&nbsp;:class:`list`&nbsp;of&nbsp;(name,&nbsp;function)&nbsp;listener&nbsp;pairs&nbsp;that&nbsp;are&nbsp;defined&nbsp;in&nbsp;this&nbsp;cog.<br>
+&nbsp;<br>
+Returns<br>
+--------<br>
+List[Tuple[:class:`str`,&nbsp;:ref:`coroutine&nbsp;&lt;coroutine&gt;`]]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;listeners&nbsp;defined&nbsp;in&nbsp;this&nbsp;cog.</tt></dd></dl>
+
+<dl><dt><a name="music_cog-has_error_handler"><strong>has_error_handler</strong></a>(self)</dt><dd><tt>:class:`bool`:&nbsp;Checks&nbsp;whether&nbsp;the&nbsp;cog&nbsp;has&nbsp;an&nbsp;error&nbsp;handler.<br>
+&nbsp;<br>
+..&nbsp;versionadded::&nbsp;1.7</tt></dd></dl>
+
+<dl><dt><a name="music_cog-walk_commands"><strong>walk_commands</strong></a>(self)</dt><dd><tt>An&nbsp;iterator&nbsp;that&nbsp;recursively&nbsp;walks&nbsp;through&nbsp;this&nbsp;cog's&nbsp;commands&nbsp;and&nbsp;subcommands.<br>
+&nbsp;<br>
+Yields<br>
+------<br>
+Union[:class:`.Command`,&nbsp;:class:`.Group`]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;command&nbsp;or&nbsp;group&nbsp;from&nbsp;the&nbsp;cog.</tt></dd></dl>
+
+<hr>
+Class methods inherited from <a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>:<br>
+<dl><dt><a name="music_cog-listener"><strong>listener</strong></a>(name=None)<font color="#909090"><font face="helvetica, arial"> from <a href="discord.ext.commands.cog.html#CogMeta">discord.ext.commands.cog.CogMeta</a></font></font></dt><dd><tt>A&nbsp;decorator&nbsp;that&nbsp;marks&nbsp;a&nbsp;function&nbsp;as&nbsp;a&nbsp;listener.<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;the&nbsp;cog&nbsp;equivalent&nbsp;of&nbsp;:meth:`.Bot.listen`.<br>
+&nbsp;<br>
+Parameters<br>
+------------<br>
+name:&nbsp;:class:`str`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;name&nbsp;of&nbsp;the&nbsp;event&nbsp;being&nbsp;listened&nbsp;to.&nbsp;If&nbsp;not&nbsp;provided,&nbsp;it<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;the&nbsp;function's&nbsp;name.<br>
+&nbsp;<br>
+Raises<br>
+--------<br>
+TypeError<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;function&nbsp;is&nbsp;not&nbsp;a&nbsp;coroutine&nbsp;function&nbsp;or&nbsp;a&nbsp;string&nbsp;was&nbsp;not&nbsp;passed&nbsp;as<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;name.</tt></dd></dl>
+
+<hr>
+Static methods inherited from <a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>:<br>
+<dl><dt><a name="music_cog-__new__"><strong>__new__</strong></a>(cls, *args, **kwargs)</dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Readonly properties inherited from <a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>:<br>
+<dl><dt><strong>qualified_name</strong></dt>
+<dd><tt>:class:`str`:&nbsp;Returns&nbsp;the&nbsp;cog's&nbsp;specified&nbsp;name,&nbsp;not&nbsp;the&nbsp;class&nbsp;name.</tt></dd>
+</dl>
+<hr>
+Data descriptors inherited from <a href="discord.ext.commands.cog.html#Cog">discord.ext.commands.cog.Cog</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>description</strong></dt>
+<dd><tt>:class:`str`:&nbsp;Returns&nbsp;the&nbsp;cog's&nbsp;description,&nbsp;typically&nbsp;the&nbsp;cleaned&nbsp;docstring.</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-BotAnswer"><strong>BotAnswer</strong></a>(UserData)</dt></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>bot</strong> = &lt;discord.ext.commands.bot.Bot object&gt;</td></tr></table>
+</body></html>
